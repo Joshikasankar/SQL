@@ -1,1 +1,43 @@
+                             SQL 
+SQL  ----> structured Query Language.
+Why we are using SQL ?
+    To perform a CRUD Operations in DataBase.
+                  |                   |____where the datas are storing.
+                  |
+                  |----Create 
+                  |----Read
+                  |----Update
+                  |----Delete
+
+DBMS : ----> DataBase Management System.
+    Running a SQL and  performing a CRUD operations in database, the DBMS is used
+    It intract with the database to pass the request to change the DB.
+
+
+TWO types of DB :
+      1)Relational Database ---table
+      2)Non Relational Database ---mongoDB , Firebase (noSQL)
+          graphs,json are comes under non relational.
+---------------------------------------------------------------------------
+1)Relational DataBase
+       Relational ---> it has the relation between one table and another. eastablish with keys.
+       
+ Types :
+my sql
+ms sql server ---> ssms
+oracle 
+postbase sql
+-------------------------
+
+
+
+
+
+
+
+
+
+
+
+
 
