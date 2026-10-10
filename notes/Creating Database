@@ -13,3 +13,13 @@ to delete a database :
 To alter :
    alter database read only = 1; -----> only read the database
    alter database read only = 0; -----> normal mode 
+-------------------------------------------------------------------------
+Creating a table :
+      create table table_name( arguments);
+         eg :
+          create table employee(
+    emp_id int,name varchar(50),salary decimal(7,2), joining_data date);
+
+
+
+
