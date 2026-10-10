@@ -8,3 +8,8 @@ each and every query i write need to perform in this database. the command will 
 
 to delete a database :
   DROP DATABASE database_name;
+
+
+To alter :
+   alter database read only = 1; -----> only read the database
+   alter database read only = 0; -----> normal mode 
