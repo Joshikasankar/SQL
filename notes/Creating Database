@@ -1,0 +1,10 @@
+To view the databases names : 
+         show databases;
+to create a database :
+     create database database_name;
+
+each and every query i write need to perform in this database. the command will be used :
+      use database_name;
+
+to delete a database :
+  DROP DATABASE database_name;
