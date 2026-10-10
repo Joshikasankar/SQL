@@ -17,8 +17,51 @@ To alter :
 Creating a table :
       create table table_name( arguments);
          eg :
-          create table employee(
-    emp_id int,name varchar(50),salary decimal(7,2), joining_data date);
+          create table Student(
+    st_id int,name varchar(50),fees decimal(7,2), DOB date);
+
+
+viewing a created table :
+               select * from table_name;   * ---> all records
+                  eg :
+                    select * from student;
+---------------------------------
+to rename the table :
+            rename table table_name to new_name;
+                  Eg :
+                   rename table student to students;
+----------------------------------
+to drop a table :
+            drop table tabel_name;
+                  Eg :
+                     drop table students;
+----------------------------------
+to add a column in table :
+     alter table table_name add coumn_name datatype;
+         alter table students add ph_no varchar(10);
+
+To rename a column name :
+           alter table students rename column ph_no to phoneNumber;
+
+
+To modify the column  --> changing the datatype etc...
+   alter table students modify column email varchar(100);
+
+to make a column as first column:
+   alter table students modify column email varchar(100) first;
+
+if make as middle :
+     alter table students modify column email varchar(100) after st_name;
+
+To delete a column in a table :
+       alter table students drop column email;
+
+
+
+
+
+
+
 
 
 
