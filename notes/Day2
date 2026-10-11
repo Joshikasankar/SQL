@@ -1,0 +1,12 @@
+Selecting a selective columns :
+     select st_name, phoneNumber from students;
+
+changing a column_name while calling but the is changes while calling but in existing table the name wont change. :
+    select st_name as names,PhoneNumber as ph from students;
+
+
+Getting a single row :
+  select *from students where st_id =2;
+
+getting a records but without the specific  row :
+    select *from students where st_id != 2;
