@@ -19,3 +19,11 @@ alter table students modify column email varchar(100) first;
 alter table students modify column email varchar(100) after DOB;
 
 alter table students drop column email;
+
+insert into students values( 1,"sam",30000.23,"2005-03-15","sam1@gmail.com","3434352343");
+
+insert into students values( 2,"ravi",50000.23,"2004-09-20","ravii1@gmail.com","4564352343"),
+( 3,"savita",40000.23,"2005-10-10","ssavi1@gmail.com","9454352343");
+
+insert into students (st_id,st_name,phoneNumber) values(4,"sruti",2349567435);
+select * from students;
