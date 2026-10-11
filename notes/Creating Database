@@ -56,6 +56,19 @@ if make as middle :
 To delete a column in a table :
        alter table students drop column email;
 
+------------------------------------------------------------
+Inserting a values into table :
+     insert into students values( 1,"sam",30000.23,"2005-03-15","sam1@gmail.com","3434352343");
+
+inserting values to a table as same time multi insertion :
+     
+what if the values are not matched to the column and need to inserts in particular columns :
+         insert into students (st_id,st_name,phoneNumber) values(4,"sruti",2349567435);
+
+
+
+
+
 
 
 
