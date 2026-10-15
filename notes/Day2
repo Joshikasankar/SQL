@@ -7,6 +7,6 @@ changing a column_name while calling but the is changes while calling but in exi
 
 Getting a single row :
   select *from students where st_id =2;
-
+ 
 getting a records but without the specific  row :
     select *from students where st_id != 2;
